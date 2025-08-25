@@ -36,7 +36,7 @@ while saida.lower() !='n':
         operacao = input("Digite a operação desejada (+ , -, *, / ou o nome da operação): ")
         resultado = calculadora(num1, num2, operacao)
         print("Resultado da operação: ", resultado)
-        saida = input("Deseja continuar? (S/N): ")
+        saida = input("Deseja continuar?: ")
     except ValueError:
         print("Entrada inválida. Certifique-se de digitar números válidos.")
         
